@@ -32,7 +32,7 @@ public class MainApp {
                   + ". Series: " + user.getCar().getSeries());
          System.out.println();
       }
-      userService.getUserByCar(new Car("Opel", 456));
+      System.out.println(userService.getUserByCar(new Car("Opel", 456)));
 
       context.close();
    }
